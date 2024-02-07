@@ -5,8 +5,8 @@ Landing page developed with the aim of improving my knowledge of HTML, CSS and o
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>
+  <a href="#-tecnologias">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>
 </p>
 
 <br>
@@ -15,16 +15,16 @@ Landing page developed with the aim of improving my knowledge of HTML, CSS and o
   <img alt="projeto LandingPage" src="./assets/README-pic.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Tecnologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - HTML e CSS
 - JavaScript
 - Git e Github
 
-## 💻 Projeto
+## 💻 Project
 
 The Landing Page project is a personal page, with the aim of providing more information about a person or company, in this case a company.
 
-- [Acesse o projeto finalizado, online](https://pedrospee.github.io/LandingPage)
+- [Access the finished project online](https://pedrospee.github.io/LandingPage)
