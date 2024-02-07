@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage MP Business</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="main-bg">
+  <input id="close-menu" class="close-menu" type="checkbox" area-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <div id="logo1">
+        <h1 onclick="getElementById('close-menu').checked = false;" id="logo"><a href="#"><img src="./assets/avatar-light.png" alt="logo" /></a></h1>
+      </div>
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#">Home</a></li>
+          <li><a href="#nos">About us</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#emailus">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <div id="introd" class="menu-spacing"></div>
+  <section class="intro section main-bg">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Welcome to MP Business - Transforming Brands, Igniting Growth</h2>
+        <p>At the crossroads of technology and creativity, MP Business is your trusted partner in crafting and elevating
+          your company's visual identity. Whether you're a local microenterprise or a dynamic mega multinational, we're
+          dedicated to transforming your visions into impactful and memorable visual identities.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section fundo">
+    <div id="nos" class="aboutus-content">
+      <article id="artigo">
+        <h3>About us</h3>
+        <p>Welcome to MP Business, an innovative technology company specializing in groundbreaking visual identity
+          projects for businesses of all sizes. Our dedication is to drive client success through unique and impactful
+          solutions, enhancing their market presence.</p>
+        <h5>Who We Are:</h5>
+        <p>At MP Business, we're passionate about technology and creativity. Our talented team of experienced
+          professionals collaborates to deliver innovative and personalized solutions, staying at the forefront of
+          technological and design trends.</p>
+        <h5>What We Do:</h5>
+        <p>Crafting memorable logos and developing comprehensive visual identities, we offer a customer-centric approach
+          that conveys authenticity, professionalism, and emotional connections. Our services cater to diverse client
+          needs, regardless of company size.</p>
+        <h5>Constant Innovation:</h5>
+        <p>In our ever-evolving world, MP Business stays committed to staying ahead of emerging trends. Through ongoing
+          research and skills enhancement, each project authentically expresses clients' visions and values, aligning with
+          contemporary market expectations.</p>
+      </article>
+    </div>
+  </section>
+  <section id="faq" class="fundo3 main-bg section">
+    <div>
+      <h3>Frequently Asked Questions(FAQ) - MP Business</h3>
+      <p>Here we have selected some of the most important questions asked by our customers.</p>
+      <div id="p-distance"></div>
+      <div class="grid">
+        <article class="bg-grey">
+        <h6>What does MP Business offer in terms of visual identity?</h6>
+        <p>MP Business provides a complete range of visual identity services, from creating memorable logos to
+          developing comprehensive visual identities. Our goal is to highlight your brand and differentiate it from the
+          competition.</p>
+        </article>
+        <article class="bg-grey">
+          <h6>Which sectors does MP Business serve?</h6>
+        <p>We serve a wide variety of sectors, from technology and finance to healthcare and retail. Our versatility
+          allows us to create customized solutions to meet the specific needs of different industries.</p>
+        </article>
+        <article class="bg-grey">
+          <h6>Does MP Business offer maintenance or updates to the visual identity over time?</h6>
+        <p>Yes, we offer maintenance and update services to ensure that your company's visual identity aligns with
+          changes in the market and trends.</p></article>
+      </div>
+    </div>
+  </section>
+  <section id="emailus" class="contacts">
+    <div class="main-content intro-content">
+      <div class="contact-form">
+        <h3>Contact Form</h3>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="Your first name">
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last name</label>
+              <input type="text"
+              name="last-name"
+              id="last-name"placeholder="Your last name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email"
+              name="email"
+              id="email" placeholder="Your email">
+            </div>
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Type a message"></textarea>
+            </div>
+            <div class="form-group full-width">
+              <button type="submit">Send message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Creating projects, solving problems!</p><a href="#intro" target="_blank"><img src="./assets/avatar.png" alt="logo MP Business"></a>
+  </footer>
+  <a class="back-to-top" href="#">⇪</a>
+</body>
+</html>
